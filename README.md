@@ -3,9 +3,15 @@ It is a basic todo list that is used to organize tasks
 # To-Do-List Snippet
 ![Screenshot (33)](https://github.com/user-attachments/assets/59cc03b0-1d37-42a4-9bb9-d036401145b9)
 # Testing Guidance
-  -> Run the app:
-    npm install
-    npm run dev    # if using Vite
+  # Create Vite Project
+   . npm create vite@latest my-react-app --template react
+   
+  # Run the app:
+   . cd my-react-app
+   
+   . npm install
+   
+   . npm run dev    # if using Vite
 # Features
 # ✅ Basic Functionality Tests
      1) Add Task
