@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+  background: #f8f9fa;
+  background-color: rgb(124, 186, 186);
+}
+
+.app-container {
+  text-align: center;
+  padding: 2rem;
+  margin-left:450px;
+  background-color: beige;
+  
+}
+
+.todo-wrapper {
+  max-width: 500px;
+  margin: auto;
+}
+
+.input-section input {
+  width: 70%;
+  padding: 0.5rem;
+  margin-right: 10px;
+  background-color:lightblue;
+}
+
+.input-section button {
+  padding: 0.5rem;
+  background-color: cyan;
+  
+}
+
+.filter-section {
+  margin: 1rem 0;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aquamarine;
+  
+}
+
+.task-list li span {
+  cursor: pointer;
+}
+
+.task-list li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
